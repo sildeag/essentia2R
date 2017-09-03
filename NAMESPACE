@@ -1,1 +1,3 @@
+useDynLib(essentia2R)
 exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
